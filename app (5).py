@@ -5,7 +5,7 @@ import openai
 # --- OpenAI API Configuration ---
 # Access your API key from environment variables
 try:
-    OPENAI_API_KEY = os.environ.get('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')
+    OPENAI_API_KEY = os.environ.get('')
     if not OPENAI_API_KEY:
         st.error("⚠️ OpenAI API Key not found in environment variables. Please set it.")
     else:
